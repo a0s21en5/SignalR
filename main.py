@@ -3,11 +3,7 @@ from pytube import YouTube
 link = input("Enter Here What You Download: ")
 data = YouTube(link)
 
-# Title
-# print(data.title)
-# Thumbnail
-# print(data.thumbnail_url)
-
+# All Format
 videos = data.streams.all()
 
 vid = list(enumerate(videos))
