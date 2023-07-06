@@ -19,3 +19,9 @@ RabbitMQ is an open-source message broker software that provides a messaging sys
 - **Routing Key**: A routing key is a value associated with a message that is used by exchanges to determine which queues should receive the message.
 
 - **Acknowledgment**: RabbitMQ provides an acknowledgment mechanism to ensure reliable message delivery. Consumers can acknowledge the receipt of a message once it has been successfully processed. If a message is not acknowledged within a certain timeframe, RabbitMQ can re-queue it for redelivery.
+
+## To use RabbitMQ in an ASP.NET Core application,
+
+```
+dotnet add package RabbitMQ.Client
+```
