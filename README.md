@@ -1,1 +1,2 @@
 # SignalR
+RabbitMQ is an open-source message broker software that provides a messaging system for applications to communicate with each other. It implements the Advanced Message Queuing Protocol (AMQP) and is written in the Erlang programming language. RabbitMQ enables different components of an application to exchange messages asynchronously, decoupling the sender and receiver, and ensuring reliable delivery.
